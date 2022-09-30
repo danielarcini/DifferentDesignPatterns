@@ -1,7 +1,6 @@
 /**
  * Daniel Arciniega
- * CSE 360: Assignment 3
- * Template file for starting the Observer practice program
+ *  Observer program
  */
 
 public class ObserverMain {
@@ -26,7 +25,7 @@ public class ObserverMain {
 
 
         /*****
-         * TODO: Add/edit code as necessary to create a class (or classes) that will complete each of the following:
+         * Add/edit code as necessary to create a class (or classes) that will complete each of the following:
          * - Add all the numbers together and then add the result to the numberList
          * - Subtract all the numbers from 100 and then add the result to the number list
          * - Multiple all the numbers together and then add the result to the number list
@@ -39,7 +38,7 @@ public class ObserverMain {
         NumberObserver numberObserver = new NumberObserver( numberFacade );
 
         /**
-         * TODO: Observer should print the message:
+         * Observer should print message:
          * "********** numberList has been updated ***********"
          * to make it easier to understand the output.
          **/
@@ -54,7 +53,7 @@ public class ObserverMain {
         numberFacade.subtractNumbers();
 
         /**
-         * TODO: Observer should print the message:
+         * Observer should print message:
          * "********** numberList has been updated ***********"
          * to make it easier to understand the output.
          **/
